@@ -1,0 +1,280 @@
+:root {
+    --black: hsl(0, 0%, 0%);
+    --text: hsl(0, 98%, 26%);
+    --ivory: hsl(60, 100%, 97%);
+    --icons: hsl(149, 48%, 72%);
+    --nav: hsl(150, 97%, 13%);
+    --white: hsl(0, 0%, 100%);
+
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Arial', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header-img {
+    width: 30px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    background-color: var(--nav);
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--icons);
+    padding: 0 20px;
+}
+
+.logo-container {
+
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+
+.stellarsongs {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 650;
+    color: var(--icons);
+}
+
+body {
+    background-color: var(--ivory);
+}
+
+#email-section {
+    margin-top: 100px;
+}
+
+#email-section h2 {
+    margin-bottom: 12px;
+}
+
+
+section {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 160px;
+
+}
+
+#submit {
+    background-color: var(--icons);
+    color: var(--black);
+    cursor: pointer;
+    width: 183px;
+}
+
+#for_sale h2 {
+    margin: 20px;
+    border-bottom: 1px solid black;
+    font-size: 40px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+#icon {
+    color: var(--icons);
+    margin-right: 30px;
+}
+
+#features {
+    text-align: left;
+    max-width: 790px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 0;
+}
+
+#cupchai {
+    border-radius: 20px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+#cup2 {
+    border-radius: 20px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+
+#history {
+    text-align: left;
+    max-width: 790px;
+    margin: auto;
+}
+
+#for_sale {
+    text-align: center;
+    max-width: 790px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+#video {
+    width: 100%;
+    height: 480px;
+}
+
+.image {
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid black;
+
+
+}
+
+.product1 {
+    background-image: url(https://145880643.cdn6.editmysite.com/uploads/1/4/5/8/145880643/s697246201984052858_p704_i4_w1416.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.product2 {
+    background-image: url(https://www.davidsonstea.com/images/products/detail/Ginger_Chai_Web.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.product3 {
+    background-image: url(https://d4pmlgzenkweq.cloudfront.net/m2mfxe7xvm6l5vfppdircp5b2bcb);
+    background-size: cover;
+    background-position: center center;
+}
+
+.card {
+    background-color: var(--white);
+    width: 97%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content {
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.artist {
+    letter-spacing: 5px;
+    color: var(--text);
+    text-transform: uppercase;
+
+}
+
+.header {
+    margin: 10px 0;
+    color: rgb(94, 93, 93);
+}
+
+.add {
+    background-color: var(--icons);
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    color: var(--text);
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+@media only screen and (min-width: 550px) {
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #header-img {
+        width: 30px;
+
+    }
+
+}
+
+@media only screen and (600px <=width) {
+
+    .card {
+        display: flex;
+        border-radius: 5px;
+
+    }
+
+    .inner-card {
+        width: 290px;
+        padding: 10px;
+
+
+    }
+
+    .image {
+        border-right: 1px solid black;
+        border-bottom: none;
+    }
+}

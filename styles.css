@@ -239,7 +239,7 @@ input {
     font-size: 30px;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 490px) {
     #nav-bar {
         display: flex;
         flex-direction: row;

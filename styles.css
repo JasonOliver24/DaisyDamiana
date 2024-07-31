@@ -27,7 +27,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    height: 70px;
+    height: 90px;
     background-color: var(--nav);
 
 }
@@ -48,7 +48,7 @@
 
     display: flex;
     align-items: center;
-    color: var(--white);
+    color: var(--icons);
 }
 
 .stellarsongs {

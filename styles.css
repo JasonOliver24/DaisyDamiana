@@ -135,6 +135,10 @@ input {
     margin: 0;
 }
 
+#chai-imgs {
+    max-width: 790px;
+    margin: auto;
+}
 
 #history {
     text-align: left;
@@ -157,6 +161,7 @@ input {
 
 #video {
     width: 100%;
+    margin-top: 30px;
 }
 
 .image {
